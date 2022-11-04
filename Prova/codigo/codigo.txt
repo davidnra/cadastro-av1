@@ -1,0 +1,22 @@
+crearte database cadastro1;
+
+
+create table usuario1(
+
+	id int primary key auto_incremet,
+	nome varchar(255) not null,
+	email varchar(255) not null,
+	senha int(11)
+	);
+
+create table aluno1(
+
+	id int primary key auto_incremet,
+	nome varchar(255) not null,
+	email varchar(255) not null,
+	idade varchar(50) not null,
+	telefone bigint(20) not null,
+	endereco varchar(255) not null,
+	senha int(11)
+	);
+	
